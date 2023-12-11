@@ -9,7 +9,7 @@ on:
 #環境変数
 env:
   #リージョンの設定
-  AWS_REGION: us-west-2
+  AWS_REGION: ap-northeast-1
   #サービス名
   ECS_SERVICE: simple-cicd-service
   #クラスター名
