@@ -1,0 +1,17 @@
+{
+  "name": "api-container",//任意の名前
+  "service": "api",//docker-composeのサービス
+  "workspaceFolder": "/workspace",//コンテナのワークスペース
+  "dockerComposeFile": "../../docker-compose.yml",//docker-composeファイル
+  "customizations": {
+      "vscode":{
+          "extensions":[//vscodeの拡張機能　拡張機能の詳細画面　右下　More info > Identifier の文字列
+              "vscjava.vscode-spring-initializr",
+              "pivotal.vscode-spring-boot",
+              "pivotal.vscode-boot-dev-pack",
+              "vscjava.vscode-spring-boot-dashboard",
+              "vscjava.vscode-java-pack"
+          ]
+      }
+  }
+}
