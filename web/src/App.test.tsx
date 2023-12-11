@@ -7,4 +7,3 @@ test('renders title', () => {
   const titleElement = screen.getByText("Hello App");
   expect(titleElement).toBeInTheDocument();
 });
-``
